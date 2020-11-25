@@ -145,6 +145,7 @@ const RichTextInput: FunctionComponent<Props> = props => {
                     />
                 </InputLabel>
             )}
+	    <p>Hello</p>
             <div data-testid="quill" ref={divRef} className={variant} />
             <FormHelperText
                 error={!!error}
